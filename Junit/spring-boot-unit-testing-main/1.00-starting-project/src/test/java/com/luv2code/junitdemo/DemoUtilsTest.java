@@ -70,8 +70,7 @@ class DemoUtilsTest {
     @DisplayName("Multiply")
     @Test
     void testMultiply(){
-        demoUtils = new DemoUtils();
-        assertEquals(12,demoUtils.multiply(4,3),"4*3 must be 12");
+        assertEquals(12,demoUtils.multiply(4,3),"should return 12");
     }
     @Test
     @DisplayName("Iterable equals ")
