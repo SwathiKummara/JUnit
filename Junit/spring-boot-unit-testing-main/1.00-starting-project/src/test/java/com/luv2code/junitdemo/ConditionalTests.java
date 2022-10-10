@@ -31,7 +31,7 @@ public class ConditionalTests {
     @Test
     @EnabledIfEnvironmentVariable(named = "luv2code",matches = "DEV")
     void testonlyforenvironmentvariable(){
-        
+
     }
 
 }
